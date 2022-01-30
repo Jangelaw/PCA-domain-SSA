@@ -22,7 +22,9 @@ Salinas and PaviaU: https://rslab.ut.ac.ir/data
 # Usage
 
 IP- Indianpines corrected
+
 SA- Salinas corrected
+
 PU- PaviaU
 
-Simply run the P_SSA_IP to get the predicted results of IndianPines corrected data using 5,10,15,20,25,30,5%, and 10% training samples.
+Simply run the P_SSA_IP.m to get the predicted results of IndianPines corrected data using 5,10,15,20,25,30,5%, and 10% training samples.
