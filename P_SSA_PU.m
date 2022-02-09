@@ -1,5 +1,5 @@
 % clear
-addpath(genpath('libSVM\libSVM'));
+addpath(genpath('libSVM'));
 load('data\PaviaU.mat');
 load('data\PaviaU_gt.mat');
 image=double(paviaU(:,:,4:end)); %% with noise
