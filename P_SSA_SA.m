@@ -1,5 +1,5 @@
 % clear
-addpath(genpath('libSVM\libSVM'));
+addpath(genpath('libSVM'));
 load('data\Salinas_corrected.mat');
 load('data\Salinas_gt.mat');
 image=double(salinas_corrected(:,:,4:end-1)); %% with noise
