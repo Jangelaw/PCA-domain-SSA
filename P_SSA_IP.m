@@ -1,5 +1,5 @@
 % clear
-addpath(genpath('libSVM\libSVM'));
+addpath(genpath('libSVM'));
 load('data\Indian_pines_corrected.mat');
 load('data\Indian_pines_gt.mat');
 image=double(indian_pines_corrected); %% with noise
