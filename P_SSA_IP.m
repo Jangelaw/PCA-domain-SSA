@@ -27,8 +27,6 @@ para=[10,10];
 L=10;
 u=L; v=L; first=1; last=1;
 trainsample_num=ones(class_num,1)*[5,10,15,20,25,30];
-trainsample_num(7,:)=13; %% liangpei zhang, neuralcomputing 2019
-trainsample_num(9,:)=10; %% liangpei zhang, neuralcomputing 2019
 trainsample_num=[floor(num_of_label.*0.05)',floor(num_of_label.*0.1)',trainsample_num];
 
 t1 = clock;
